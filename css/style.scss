@@ -13,6 +13,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
+    margin-top: 2%
 };
 
 //Nav
@@ -42,16 +43,20 @@ h1,h2,h3,h4,h5,h6 {
         position:relative;}
 
     .me-2 {
-        margin-right: 20%; }
+        margin-right: 20%; 
+        position: absolute;
+
+      }
 
     .d-flex {
         display: flex;
         justify-content:center;
-        width: 50%;
+        width: 25%;
         padding: 5px;
         border: none;
         border-radius: 25%;
         color: #666;
+        position: relative;
     }
      
       .navbar .navbarScroll {
@@ -84,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
             margin-left: 0.255em;
             vertical-align: 0.255em;
             content: "";
-           
+            border-top: none;
             border-right: 0.3em solid transparent;
             border-bottom: 0;
             border-left: 0.3em solid transparent;
@@ -208,11 +213,19 @@ h1,h2,h3,h4,h5,h6 {
           //cards
           .card-img-top {
             width: 50%;
+            top:110;
+            left: 0;
+            margin-top: 10%;
         }
 
 .card .card-radius {
   border-radius: 50%;
 }
+.card-body {
+  flex: 2 ;
+  padding: 16px 16px;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -221,6 +234,25 @@ h1,h2,h3,h4,h5,h6 {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 2px solid rgba(0,0,0,.300);
   border-radius: 15px;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  height: 350px;
+
 }
+.btn-primary {
+  color: #fff;
+  background-color:$color1;
+  border-color: $color1;
+  border-radius: 50px;
+  width: 148px;
+  font-size: 25px;
+  font-weight: 800;
+  inline-size: -webkit-fill-available;
+}
+.fa-cart-shopping:before, .fa-shopping-cart:before {
+
+    color:$color2;
+} 
