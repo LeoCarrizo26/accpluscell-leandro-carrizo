@@ -256,3 +256,22 @@ h1,h2,h3,h4,h5,h6 {
 
     color:$color2;
 } 
+//carrusel
+.carousel-control-next-icon {
+  background-image: url()
+}
+.carousel-control-prev-icon {
+  background-image: url();
+}
+
+  .fa-angle-left:before {
+    content: "\f104";
+    color: $color3;
+    font-size: 50px;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    color: $color3;
+    font-size: 50px;
+}
