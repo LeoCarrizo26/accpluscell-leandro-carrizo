@@ -1,0 +1,109 @@
+$color1: #16b6f2; //cian
+$color2: #ffffff; //blanco
+$color3: #030a11;// negro intenso
+$color4: #d6f3ff;//cian claro
+$color5: #f0f5fa;//alice azul
+
+body {
+  background-color: $color5;
+    color: $color3;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 800;
+    margin-top: 2%
+};
+
+//Nav
+.navbar-dark .navbar-nav .nav-link {
+    color:$color2;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    position: absolute;
+    left: 250px;
+    bottom: 0;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+ 
+    align-items: center;
+    
+}
+
+      //cards
+          
+  .card-img-top {
+    width: 50%;
+    top:110;
+    left: 0;
+    margin-top: 10%;
+}
+.card.card-radius {
+  border-radius: 100%;
+  height: 160px;
+  width: 160PX;
+}
+.card-body {
+  flex: 1 ;
+  padding: 16px 16px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid rgba(0,0,0,.300);
+  border-radius: 15px;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  height: 250px;
+
+}
+.btn-primary {
+  color: #fff;
+  background-color:$color1;
+  border-color: $color1;
+  border-radius: 50px;
+  width: 148px;
+  font-size: 25px;
+  font-weight: 800;
+  inline-size: -webkit-fill-available;
+}
+.fa-cart-shopping:before, .fa-shopping-cart:before {
+
+    color:$color2;
+} 
+//carrusel
+.carousel-control-next-icon {
+  background-image: url()
+}
+.carousel-control-prev-icon {
+  background-image: url();
+}
+
+  .fa-angle-left:before {
+    content: "\f104";
+    color: $color3;
+    font-size: 50px;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    color: $color3;
+    font-size: 50px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background:blue
+
+
+
+}
