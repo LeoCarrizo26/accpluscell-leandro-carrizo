@@ -86,11 +86,15 @@ h1,h2,h3,h4,h5,h6 {
             justify-content:center;
             position: relative;
             left: 150px;
+           
         }
         .fa-solid {
             color:$color1;
-            position: fixed;
-          }     
+            
+          }  
+           .login{
+              display: contents;
+            }   
 
           .dropdown-toggle::after {
             display: inline-block;
@@ -321,6 +325,7 @@ h1,h2,h3,h4,h5,h6 {
   inline-size: -webkit-fill-available;
   margin-top: 5%;
   margin-bottom: 0;
+  bottom: 0;
 }
 .fa-cart-shopping:before, .fa-shopping-cart:before {
 
