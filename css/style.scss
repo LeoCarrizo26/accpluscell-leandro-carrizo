@@ -333,21 +333,75 @@ h1,h2,h3,h4,h5,h6 {
 
 //carrusel
 
-.carousel-control-next-icon {
-  background-image: url()
+button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  position: relative;
+
 }
-.carousel-control-prev-icon {
-  background-image: url();
+button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+
 }
 
   .fa-angle-left:before {
     content: "\f104";
-    color: $color3;
-    font-size: 50px;
+    display: flex; 
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    right:380px ;
+    
 }
 
 .fa-angle-right:before {
     content: "\f105";
-    color: $color3;
-    font-size: 50px;
+    /* display: flex; */
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    left: 380px;
+}
+.owl-theme,.owl-dots,.owl-dot {
+  display: none;
+  zoom: 1;
+}
+@media (max-width:767px) {
+  .fa-angle-left:before {
+    content: "\f104";
+    display: flex; 
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    right:140px ;
+
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    /* display: flex; */
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    left: 120px;
+}
 }
