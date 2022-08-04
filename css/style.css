@@ -118,6 +118,28 @@ h1, h2, h3, h4, h5, h6 {
     .footer-dark .item.text p {
       opacity: 0.6;
       margin-bottom: 0; }
+  .footer-dark .btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 63px;
+    bottom: 75px;
+    right: 25px;
+    background: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all 300ms ease; }
+  .footer-dark .btn-wsp:hover {
+    background: #20ba5a; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .footer-dark .btn-wsp {
+      width: 63px;
+      height: 63px;
+      line-height: 66px; } }
   .footer-dark .divider {
     width: 100%;
     border-top: 3px solid #16b6f2; }
