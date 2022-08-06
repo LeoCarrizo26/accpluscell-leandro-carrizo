@@ -184,11 +184,12 @@ h1,h2,h3,h4,h5,h6 {
             }
           }
           .btn-scroll{
+            display: none;
             position:fixed;
             width:30px;
             height:30px;
             line-height: 33px;
-            bottom:100px;
+            bottom:10px;
             left:25px;
             background:$color2;
             color:$color3;
