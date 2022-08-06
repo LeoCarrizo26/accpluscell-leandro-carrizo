@@ -183,6 +183,32 @@ h1,h2,h3,h4,h5,h6 {
                   line-height: 66px;
             }
           }
+          .btn-scroll{
+            position:fixed;
+            width:30px;
+            height:30px;
+            line-height: 33px;
+            bottom:100px;
+            left:25px;
+            background:$color2;
+            color:$color3;
+            border-radius:100px;
+            text-align:center;
+            font-size:35px;
+            box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+            z-index:100;
+            transition: 1s;
+            &:hover{
+              background: $color4;
+          }
+          
+        }
+      
+        
+        .fa-chevron-up{
+          color: #212529;
+          font-size: 25px;
+        }
 
             .divider {
               width: 100%;

@@ -16,3 +16,4 @@ $('.owl-carousel').owlCarousel({
 })
 $( ".owl-prev").html('<i class="fa-solid fa-angle-left"></i>');
 $( ".owl-next").html('<i class="fa-solid fa-angle-right"></i>');
+
