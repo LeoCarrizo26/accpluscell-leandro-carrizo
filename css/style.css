@@ -313,7 +313,7 @@ button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.ow
   width: 16px;
   cursor: pointer;
   bottom: 170px;
-  right: 380px; }
+  right: 480px; }
 
 .fa-angle-right:before {
   content: "\f105";
@@ -324,7 +324,7 @@ button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.ow
   width: 16px;
   cursor: pointer;
   bottom: 170px;
-  left: 380px; }
+  left: 460px; }
 
 .owl-theme, .owl-dots, .owl-dot {
   display: none;
@@ -340,7 +340,7 @@ button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.ow
     width: 16px;
     cursor: pointer;
     bottom: 170px;
-    right: 140px; }
+    right: 280px; }
 
   .fa-angle-right:before {
     content: "\f105";
@@ -351,6 +351,28 @@ button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.ow
     width: 16px;
     cursor: pointer;
     bottom: 170px;
-    left: 120px; } }
+    left: 260px; } }
+@media (max-width: 576px) {
+  .fa-angle-left:before {
+    content: "\f104";
+    display: flex;
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    right: 160px; }
+
+  .fa-angle-right:before {
+    content: "\f105";
+    /* display: flex; */
+    color: #030a1199;
+    font-size: 70px;
+    position: absolute;
+    width: 16px;
+    cursor: pointer;
+    bottom: 170px;
+    left: 140px; } }
 
 /*# sourceMappingURL=style.css.map */
