@@ -227,6 +227,7 @@ position: relative;
   .container  {
     margin-top: 50px;
     margin-bottom: 50px;
+    left: 300px;
 }
 
 //card
@@ -243,10 +244,16 @@ position: relative;
     border-radius:  25px;
     
 .img-fluid {
-    max-width: 90%;
+    max-width: 70%;
     height: auto;
     background-color: $color2;
     border-radius: 10px;
+    position: relative;
+    left: 20%;
+
+}
+.bg-white {
+  border-radius: 25px;
 }
     .card-text{
        
@@ -277,16 +284,23 @@ position: relative;
         color: #fff;
         background-color: $color1;
         border-color :$color1;
-        border-radius: 15px;
-        width: 100%;
+        border-radius: 50px;
+        width: 50%;
         max-width: 100%;
-        right: 0;
+        left: 25%;
         bottom: 0;
         position: relative;
         font-size: 40PX;
         font-weight: bold;
         &:hover {
-            border: $color2 0.2em solid;}
+          color: #fff;
+          background-color: #0b5ed7;
+          border-color: #0a58ca;}
+    }
+    @media (max-width:576px) {
+      .btn-primary {
+        width: 75%;
+      }
     }
     .text-muted-total{
         font-size: 40px;
