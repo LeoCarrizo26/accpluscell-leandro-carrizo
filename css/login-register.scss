@@ -267,8 +267,12 @@ position: relative;
       margin-top: 5%;
       margin-bottom: 5%;
   }}
- 
-  
+  @media (max-width:576px) {
+    .col {
+        flex: none;
+    }
+    
+  }
 
   //form
 
