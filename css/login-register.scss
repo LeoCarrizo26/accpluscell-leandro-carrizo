@@ -266,10 +266,9 @@ position: relative;
       left: 0;
       margin-top: 5%;
       margin-bottom: 5%;
-
-      
-      
   }}
+ 
+  
 
   //form
 
@@ -299,21 +298,31 @@ position: relative;
    
 }
 .btn-primary {
+    position: relative;
     color: #fff;
     background-color:$color1;
     border-color: $color1;
     border-radius: 50px;
     font-size: 30px;
     font-weight: 800;
+    padding: 0;
     margin-top: -1%;
     margin-bottom: 0;
     bottom: 0;
-    width: 100%;
+    width: 75%;
     box-shadow: 0.7em 0.7em 0.7em #00000015;
+    left: 50px;
     &:hover {
-        border: $color2 0.2em solid;
+      border-color: #0a58ca;;
        }
        
+}
+@media (max-width:576px) {
+  .btn-primary {
+    width: 100%;
+    left: 0px;
+   
+  }
 }
 
 .btn.btn-primary-social {
